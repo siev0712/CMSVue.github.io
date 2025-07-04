@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'CMSVue.github.io',
+  base: '/CMSVue.github.io/',
   plugins: [vue(), tailwindcss()],
 })
